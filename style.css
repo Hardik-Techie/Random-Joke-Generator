@@ -33,8 +33,7 @@ h2 {
 }
 
 img {
-    width: 380px;
-    height: 380px;
+    width: 100%;
     display: inline-block;
 }
 
