@@ -7,7 +7,7 @@ btn.addEventListener("click", async () => {
   h2.style.color = "black";
   h2.style.backgroundColor = "#F9CA3B";
   h2.style.border = "3px solid black";
-  h2.innerHTML = `<div id="img-container"><img src="bg.png" alt="bg"></div><br> ${jokes}`;
+  h2.innerHTML = `<img src="bg.png" alt="bg"><br> ${jokes}`;
   btn.innerText = "Generate More Jokes";
   h2.innerHTML = `<img src="bg.png" alt="bg"><br> ${jokes}`;
 });
